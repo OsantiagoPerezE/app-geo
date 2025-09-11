@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Prueba de ingreso</title>
+    <meta charset="utf-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel="stylesheet" href="scss/index.scss" />
+    <link rel="stylesheet" href="scss/loading.scss" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div id="content">
+        <!-- loading -->
+        <div class="loadingio-spinner-spin hide" id="loading-spinner">
+            <div class="ldio-3z7uhzj17ix">
+            </div>
+        </div>
+        <!-- map -->
+        <button id="capture-map-btn"
+            style="position:absolute;bottom:20px;right:5px;z-index:10000;padding:10px 16px;background:#2980b9;color:#fff;border:none;border-radius:6px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,0.2);font-size:16px;">Capturar</button>
+        <div id="map" class="nonactive"></div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

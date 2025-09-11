@@ -1,0 +1,32 @@
+{
+    "name": "prueba",
+    "version": "1.0.1",
+    "description": "",
+    "scripts": {
+        "preinstall": "npm install -g parcel",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html --dist-dir build --public-url ."
+    },
+    "author": "Geoproyecciones SAS",
+    "license": "ISC",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "6.5.1",
+        "@fortawesome/free-regular-svg-icons": "5.15.3",
+        "@popperjs/core": "2.11.8",
+        "bootstrap": "5.3.3",
+        "html2canvas": "^1.4.1",
+        "jquery": "3.7.1",
+        "jspdf": "^3.0.2",
+        "leaflet": "1.9.4",
+        "leaflet-image": "^0.4.0",
+        "leaflet-marker-rotation": "0.3.0",
+        "leaflet-minimap": "3.6.1",
+        "leaflet.awesome-markers": "2.0.5",
+        "popper.js": "1.16.1"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.13.3",
+        "parcel": "^2.13.3"
+    }
+}
