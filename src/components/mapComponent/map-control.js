@@ -39,7 +39,7 @@ const baseMaps = {
 	'Carto Light': carto_light,
 	'OSM Standard': standard_osm,
 	'OSM Humanitarian': osm_humanitarian,
-	OpenTopoMap: open_topo,
+	'OpenTopoMap': open_topo,
 	'Esri Satélite': esri_satellite,
 	'Esri Callejero': esri_street,
 	'Carto Dark': carto_dark,
