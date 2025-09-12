@@ -2,8 +2,8 @@ const L = require('leaflet');
 import 'leaflet-marker-rotation/src/rotatedMarker';
 
 const marcadorIcon = L.icon({
-	iconUrl: `marcador-48.a0bea0ef.png`,
-	iconSize: [40, 40],
+	iconUrl: `marker-icon.3f7d3721.png`,
+	iconSize: [25, 40],
 	popupAnchor: [0, -48],
 });
 
