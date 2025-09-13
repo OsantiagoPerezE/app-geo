@@ -28,24 +28,25 @@ GEO APP es una aplicación desarrollada con JavaScript y Parcel que permite visu
 
 ## Requisitos del sistema
 
-- Node.js (v14.0.0 o superior)
-- npm (v6.0.0 o superior)
+-    Node.js (v14.0.0 o superior)
+-    npm (v6.0.0 o superior)
 
 ## Instalación
 
 1. Clona este repositorio:
 
      ```bash
-     git clone <URL-del-repositorio>
+     git clone <https://github.com/OsantiagoPerezE/app-geo>
      cd APP
      ```
 
 2. Instala las dependencias:
+
      ```bash
      npm install
      ```
 
-   Nota: El script de preinstalación instalará Parcel globalmente en tu sistema.
+     Nota: El script de preinstalación instalará Parcel globalmente en tu sistema.
 
 ## Uso
 
@@ -69,23 +70,23 @@ Esto generará los archivos optimizados en la carpeta `build/`, listos para ser 
 
 -    `src/` — Código fuente de la aplicación.
      -    `components/` — Componentes reutilizables del mapa.
-         -    `mapComponent/` — Componente principal del mapa.
-             -    `controls/` — Controles personalizados (marcadores, minimapa).
-             -    `events/` — Manejadores de eventos (clicks, popups).
-             -    `layers/` — Definición de capas base y superpuestas.
-             -    `services/` — Servicios para interactuar con WMS.
-             -    `ui/` — Elementos de interfaz de usuario (modales).
-             -    `utils/` — Utilidades (captura de mapa a PDF).
-             -    `config.js` — Configuración inicial (coordenadas).
-             -    `map-control.js` — Controlador principal del mapa.
-             -    `map.scss` — Estilos específicos del mapa.
+     -    `mapComponent/` — Componente principal del mapa.
+     -    `controls/` — Controles personalizados (marcadores, minimapa).
+     -    `events/` — Manejadores de eventos (clicks, popups).
+     -    `layers/` — Definición de capas base y superpuestas.
+     -    `services/` — Servicios para interactuar con WMS.
+     -    `ui/` — Elementos de interfaz de usuario (modales).
+     -    `utils/` — Utilidades (captura de mapa a PDF).
+     -    `config.js` — Configuración inicial (coordenadas).
+     -    `map-control.js` — Controlador principal del mapa.
+     -    `map.scss` — Estilos específicos del mapa.
      -    `assets/` — Imágenes y recursos estáticos.
-         -    `img/` — Imágenes utilizadas en la aplicación (favicon, marcadores).
+     -    `img/` — Imágenes utilizadas en la aplicación (favicon, marcadores).
      -    `scss/` — Estilos en SASS.
-         -    `colors.scss` — Variables de colores.
-         -    `sizes.scss` — Variables de tamaños.
-         -    `loading.scss` — Estilos para el indicador de carga.
-         -    `index.scss` — Archivo principal de estilos.
+     -    `colors.scss` — Variables de colores.
+     -    `sizes.scss` — Variables de tamaños.
+     -    `loading.scss` — Estilos para el indicador de carga.
+     -    `index.scss` — Archivo principal de estilos.
 -    `build/` — Archivos generados tras la compilación para producción.
 -    `package.json` — Dependencias y scripts del proyecto.
 
@@ -109,23 +110,23 @@ Para desplegar la aplicación en un entorno de producción:
 
 1. Construye la aplicación:
 
-   ```bash
-   npm run build
-   ```
+     ```bash
+     npm run build
+     ```
 
 2. Los archivos generados en la carpeta `build/` pueden ser desplegados en cualquier servidor web estático como:
 
-   - Netlify
-   - Vercel
-   - GitHub Pages
-   - Amazon S3
-   - Servidor Apache/Nginx
+     - Netlify
+     - Vercel
+     - GitHub Pages
+     - Amazon S3
+     - Servidor Apache/Nginx
 
 3. Si deseas probar localmente los archivos de producción antes de desplegarlos, puedes usar:
 
-   ```bash
-   npx serve -s build
-   ```
+     ```bash
+     npx serve -s build
+     ```
 
 ## Configuración
 
@@ -135,11 +136,3 @@ La aplicación está configurada para mostrar inicialmente un mapa centrado en l
 // Coordenadas iniciales (latitud, longitud)
 export const initialCoords = [10.494762, -75.123706];
 ```
-
-## Licencia
-
-Este proyecto está licenciado bajo la licencia ISC - ver el archivo `package.json` para más detalles.
-
-## Autor
-
-Desarrollado por Geoproyecciones SAS.
