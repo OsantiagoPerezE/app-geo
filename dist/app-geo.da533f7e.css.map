@@ -1,0 +1,1 @@
+{"mappings":"AAEA;;;;;AAKA;;;;AAIA","sources":["src/scss/index.scss"],"sourcesContent":["@use './colors.scss' as *;\r\n\r\n#content {\r\n\twidth: 100%;\r\n\theight: 100%;\r\n}\r\n\r\n.hide {\r\n\tdisplay: none;\r\n}\r\n\r\n.show {\r\n\tdisplay: block;\r\n}\r\n"],"names":[],"version":3,"file":"app-geo.da533f7e.css.map","sourceRoot":"/__parcel_source_root/"}
